@@ -1,0 +1,16 @@
+{
+  "name": "MoocAns",
+  "description": "mooc 答案！",
+  "version": "1.3",
+  "manifest_version": 3,
+
+  "permissions": [
+    "cookies",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": ["*://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
